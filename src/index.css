@@ -1,0 +1,457 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav {
+    background-color: #696464;
+    height: 50px;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+} */
+
+ul li a.nav-link {
+  color: black;
+}
+
+a.d-inline-flex {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* header {
+    position: relative;
+
+} */
+
+nav {
+  z-index: 4;
+}
+
+/* header{
+    
+   width: 100%;
+   height: 80px;
+   background-color: #ffffff;
+    position: fixed;
+    clear: both;
+    z-index: 2;
+    } */
+.button .btn {
+  color: #696464
+}
+
+.nav-underline .nav-link {
+  font-size: 1.3rem;
+}
+
+a.nav-link {
+  color: aliceblue;
+}
+
+a.nav-link.active {
+  color: aliceblue;
+  font-size: 1.3rem;
+}
+
+.nav-search {
+  position: absolute;
+  right: 30px;
+}
+
+/* .container {
+    width: 1920px;
+    margin: auto;
+} */
+/* .form-control{
+   float: right;
+} */
+
+
+.banner img {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+i.bi.bi-cart-plus {
+  font-size: 50px;
+  display: none;
+}
+
+.series:hover i.bi.bi-cart-plus {
+  display: block;
+}
+
+.sale0 {
+  /* height: 100%; */
+  display: flex;
+  width: 100%;
+}
+
+.sale {
+  width: 794px;
+
+}
+
+
+
+.silebar img {
+  width: 646px;
+  height: 800px;
+
+}
+
+.sale-title {
+  height: 27.9%;
+  position: relative;
+  top: 50px;
+}
+
+.title-sale {
+  display: flex;
+  /* position:absolute ; */
+  /* bottom: -8px; */
+}
+
+.sale-title p.title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 800px;
+}
+
+.sale-title p {
+  text-align: center;
+}
+
+.sale2 img {
+  width: 397px;
+  height: 576px;
+}
+
+.btn1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 50px 10px;
+  width: 136px;
+  height: 48px;
+  background-color:
+    #ffffff;
+  border-color: #221f20;
+  border-radius: 24px 0px;
+  border-style: solid;
+  border-width: 1px;
+  color: #221f20;
+  display: inline-block;
+  font-family: Montserrat;
+  line-height: 20px;
+  text-align: center;
+}
+
+
+
+.btn1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+
+/* ảnh ivymoda */
+a.btn1 button {
+  border-radius: 50px 10px;
+  width: 136px;
+  height: 48px;
+  background-color:
+    #ffffff;
+  border-color: #221f20;
+  border-radius: 24px 0px;
+  border-style: solid;
+  border-width: 1px;
+  color: #221f20;
+  display: inline-block;
+  font-family: Montserrat;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* .series-title{
+    display: none;
+}
+.series-title:hover {
+    display: block;
+} */
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.price a,
+h5 a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+
+h5>a {
+  color: #070707;
+  display: -webkit-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px 0px 10px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.price>a {
+  color: black;
+  display: inline;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.bi-handbag {
+  float: right;
+}
+
+.item>p {
+  display:
+    inline-block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+/* tam giác */
+.triangle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 10vh; */
+  left: -9px;
+}
+
+#triangle-up {
+  position: absolute;
+  top: 30px;
+  left: -9px;
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 10px solid rgb(169, 4, 4);
+}
+
+/* header RPS */
+@media (max-width: 576px) {
+  header {
+    /* flex-wrap: nowrap; */
+    display: none !important;
+    height: 30px;
+
+  }
+
+  .nav-search {
+    display: none;
+
+  }
+
+  .sale0 {
+    display: none !important;
+  }
+
+  ul .nav {
+    display: block;
+    position: relative;
+    left: -40px;
+  }
+
+  .search {
+    width: 150px;
+  }
+
+  .form {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -38px;
+    left: -30px;
+  }
+}
+
+@media (max-width:756px) {
+
+  .btn-2,
+  .name-store,
+  .sale0 {
+    display: none;
+  }
+
+  .ivy-banner {
+    display: none;
+  }
+
+
+
+}
+
+@media (max-width: 992px) {
+
+  .btn-2,
+
+  .sale0 {
+    display: none;
+  }
+
+  ;
+
+  .name-store a {
+    font-size: 5px;
+
+  }
+
+  .visually-hidden {
+    display: block;
+  }
+
+
+}
+
+@media (min-width: 1200px) {}
+
+header {
+  position: fixed;
+  z-index: 3;
+  background-color: #c0bdbdf4;
+  width: 1296px;
+}
+
+.banner-img {
+  position: relative;
+  top: 72px;
+}
+
+.section-movies {
+  margin-top: 140px;
+}
+
+.search-form {
+  border: solid 1px #070707;
+  border-radius: 20px;
+}
+
+.icon-nav {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(49, 138, 234);
+  top: 80%;
+  left: 94%;
+
+}
+
+.bi-telephone-inbound-fill {
+  position: absolute;
+  margin: 25px;
+  color: rgb(13, 13, 196);
+}

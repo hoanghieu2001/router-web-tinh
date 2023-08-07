@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul li a.nav-link {
+    color: black;
+}
+
+a.d-inline-flex {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+
+nav {
+    z-index: 4;
+    background-color: #fff;
+}
+
+ình .button .btn {
+    color: #696464
+}
+
+.nav-underline .nav-link {
+    font-size: 1.3rem;
+}
+
+a.nav-link {
+    color: aliceblue;
+}
+
+a.nav-link.active {
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+.nav-search {
+    position: absolute;
+    right: 30px;
+}
